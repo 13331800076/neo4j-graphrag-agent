@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from typing import Any, Optional, Dict
+from typing import List, Dict, Any, Optional
 from graphrag_agent.graph.neo4j_client import Neo4jClient
 from graphrag_agent.retrieval.vector_store import VectorStore
 from graphrag_agent.text2cypher.generator import CypherGenerator
