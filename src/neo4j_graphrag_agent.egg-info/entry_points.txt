@@ -1,0 +1,2 @@
+[console_scripts]
+graphrag = graphrag_agent.cli:main
