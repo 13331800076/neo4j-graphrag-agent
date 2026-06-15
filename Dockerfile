@@ -6,7 +6,6 @@ COPY pyproject.toml .
 RUN pip install --no-cache-dir -e ".[dev]"
 
 COPY src/ ./src/
-COPY data/ ./data/
 COPY tests/ ./tests/
 
 RUN pip install --no-cache-dir -e ".[dev]"
